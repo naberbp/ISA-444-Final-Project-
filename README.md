@@ -23,8 +23,9 @@ Model performance was evaluated using the following forecasting metrics:
 1. ME (Bias)
 2. MAE
 3. RMSE
+4. MAPE
    
-Because several hotel occupancy series contain values near zero, MAPE became unstable and was thus removed from the analysis to place a greater emphasis on the other metrics
+Because several hotel occupancy series contain values near zero, MAPE became unstable and although it was not excluded from the analysis, I placed a lesser emphasis on it in terms of evaluating predictive performance. 
 
 In addition to the evaluation metrics above, model win counts were also calculated. A model win occurs when a forecasting method achieves the lowest forecasting error for a specific metric on a given series.
 
